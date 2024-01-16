@@ -1,0 +1,169 @@
+/* SHARED STYLES */
+body {
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+}
+
+.primary-button {
+  border-radius: 8px;
+  background: #FF5400;
+  border: 0;
+  width: 174px;
+  height: 52px;
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#orange {
+  color: #FF5400;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.page-tittle {
+  display: flex;
+  align-items: center;
+}
+
+.page-tittle img {
+  width: 48px;
+  height: 56.008px;
+}
+
+.tittle {
+  display: flex;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* .nav-text {
+  display: flex;
+  justify-content: space-around;
+
+} */
+.nav-text a {
+  color: var(--Dark-02, #424247);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 40px;
+  /* border: 5px solid orangered; */
+
+}
+
+/* MAIN STYLES */
+.banner {
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner-text {}
+
+
+#banner-heading {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+}
+
+#banner-description {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  width: 676px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.find-boxes-bg {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  display: inline-flex;
+  padding: 0 16px;
+  align-items: flex-start;
+
+}
+
+#search-boxes {
+  width: 175px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  gap: 204px;
+  background: #FFF;
+  /* border: 10px solid #FF5400; */
+}
+
+.search-text {
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.popular-tour-section{
+  padding: 100px 135px 100px 135px;
+  max-width: 1400px;
+  min-height: 500px;
+}
+.popular-tour {
+  /* border: 0 100px
+  border: 5px solid orange; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#pop-heading {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#pop-description {
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+#pop-img {
+  width: 540px;
+  height: 550px;
+}
+.destination-div{
+  text-align: center;
+}
