@@ -1,6 +1,6 @@
 /* SHARED STYLES */
 body {
-  margin: 0;
+  margin: 0 130px;
   text-decoration: none;
   font-family: 'Mulish', sans-serif;
 }
@@ -38,6 +38,7 @@ nav {
 
 .page-tittle {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -71,6 +72,8 @@ nav {
 /* MAIN STYLES */
 .banner {
   background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+
+  background-repeat: no-repeat;
   width: 1170px;
   height: 500px;
   border-radius: 16px;
@@ -79,8 +82,6 @@ nav {
   align-items: center;
 
 }
-
-.banner-text {}
 
 
 #banner-heading {
@@ -139,7 +140,7 @@ nav {
 }
 
 .popular-tour-section {
-  padding: 100px 135px 100px 135px;
+  padding: 100px 0;
   max-width: 1400px;
   min-height: 500px;
 }
@@ -166,46 +167,44 @@ nav {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
 }
 
 
 
-.destination-div {
+.center-text-div {
   text-align: center;
   padding-bottom: 48px;
   width: 643px;
 }
 
 
-.choose-destination-section{
+.center-text-section {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .destination-img {
-  padding: 0px 135px 0 135px;
   display: grid;
   grid-gap: 24px
 }
+
 .row-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 24px 24px;
 }
+
 .row-2 {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-gap: 24px 24px;
 }
+
 .row-3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 24px 24px;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
 }
 
 .img-text {
@@ -278,4 +277,29 @@ nav {
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
 
+}
+
+.hotel-section li {
+  list-style: none;
+}
+
+.hotel-section img {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+#hotel-head {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.hotel-row-1{
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
