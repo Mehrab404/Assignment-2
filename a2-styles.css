@@ -119,22 +119,31 @@ nav {
   border-radius: 8px;
   gap: 204px;
   background: #FFF;
+  color: rgba(19, 19, 24, 0.50);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   /* border: 10px solid #FF5400; */
 }
 
 .search-text {
-  text-align: center;
+  padding-left: 16px;
+  color: rgba(19, 19, 24, 0.50);
   font-family: Mulish;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.popular-tour-section{
+
+.popular-tour-section {
   padding: 100px 135px 100px 135px;
   max-width: 1400px;
   min-height: 500px;
 }
+
 .popular-tour {
   /* border: 0 100px
   border: 5px solid orange; */
@@ -157,13 +166,116 @@ nav {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
 
-#pop-img {
-  width: 540px;
-  height: 550px;
-}
-.destination-div{
+
+
+.destination-div {
   text-align: center;
+  padding-bottom: 48px;
+  width: 643px;
+}
+
+
+.choose-destination-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.destination-img {
+  padding: 0px 135px 0 135px;
+  display: grid;
+  grid-gap: 24px
+}
+.row-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px 24px;
+}
+.row-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 24px 24px;
+}
+.row-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px 24px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.img-text {
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#img-1 {
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+  width: 573px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+#img-2 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+  width: 573px;
+  height: 300px;
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+
+#img-3 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  width: 374px;
+  height: 286px;
+  flex-shrink: 0;
+}
+
+#img-4 {
+  width: 474px;
+  height: 286px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+}
+
+#img-5 {
+  width: 274px;
+  height: 286px;
+  flex-shrink: 0;
+  /* flex-shrink: 0; */
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
+  /* background: no-repeat */
+}
+
+#img-6 {
+  width: 473px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
+
+}
+
+#img-7 {
+  width: 673px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+
 }
